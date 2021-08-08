@@ -1,0 +1,76 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Search</title>  
+    <link rel="stylesheet" type="text/css" href="search.css"/>  
+</head>  
+<body>  
+    <div id="search">  
+        <div>
+            <input type="text" required="required" placeholder="name" name="keyword"></input>  
+            <button type="button">search</button>
+            <button>asc</button>
+            <button>desc</button>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <span>area</span>
+                    <select>
+                        <option value="Sydney">Sydney</option>
+                        <option value="Brisbane">Brisbane</option>
+                        <option value="Melbourne">Melbourne</option>
+                    </select>
+                </li>
+                <li>
+                    <span>price range</span>
+                    <input id="price_start" type="number"/>-
+                    <input id="price_end" type="number">
+                </li>
+                <li>
+                    <span>date range</span>
+                    <input type="date" id="date_star"/>-
+                    <input type="date" id="date_end"/>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="detail">
+        <table cellspacing="5" cellpadding="5">
+            <tr>
+                <th >
+                    <span><image class="resultImage" src="https://m.media-amazon.com/images/I/71CGF458KbL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71CGF458KbL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71CGF458KbL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71CGF458KbL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71CGF458KbL._AC_UL960_FMwebp_QL65_.jpg" /></span>
+                </th>
+                <th>
+                    <a href="detail.html">macbook air</a>
+                </th>
+                <th>
+                    <span> $ 1350</span>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <span><image  class="resultImage" src="https://m.media-amazon.com/images/I/513FTt9k43S._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/513FTt9k43S._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/513FTt9k43S._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/513FTt9k43S._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/513FTt9k43S._AC_UL960_FMwebp_QL65_.jpg" /></span>
+                </th>
+                <th>
+                    <a href="detail.html">iPhone 12</a>
+                </th>
+                <th>
+                    <span> $ 998</span>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page">
+        <a href="" title="pre">pre</a>
+        <a class="num cur" href="" title="1">1</a>
+        <a class="num" href="" title="2">2</a>
+        <a class="num" href="" title="3">3</a>
+        <a class="num" href="" title="4">4</a>
+        <a class="num" href="" title="5">5</a>
+        <a href="" title="next">next</a>
+</div>
+</body>  
+</html>  
